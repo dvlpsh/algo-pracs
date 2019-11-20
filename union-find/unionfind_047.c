@@ -67,10 +67,10 @@ void Union(subset subsets[], int x, int y)
 	int xroot=find(subsets,x);
 	int yroot=find(subsets,y);
 	
-	if(subsets[xroot].rank>subsets[yroot].rank)
+	if(abs(subsets[xroot].rank)<abs(subsets[yroot].rank))
 		subsets[xroot].parent=yroot;
 	
-	else if(subsets[xroot].rank<subsets[yroot].rank)
+	else if(abs(subsets[xroot].rank)>abs(subsets[yroot].rank))
 		subsets[yroot].parent=xroot;
 		
 	else //if ranks are equal

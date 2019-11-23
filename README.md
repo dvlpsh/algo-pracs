@@ -6,6 +6,6 @@
 4. Ford-Fulkerson's algorithm for max network flow  
 5. N Queens Problem (Backtracking)  
 6. Bin Packing  
-7. JOb Scheduling  
-
+7. Job Scheduling  
+8. Self Descriptive Number  
 

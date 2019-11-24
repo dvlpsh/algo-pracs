@@ -8,6 +8,7 @@
 6. Bin Packing  
 7. Job Scheduling  
 8. Self Descriptive Number  
-9. Bellman Ford(Single SOurce Shortest path)  
-10. Floyd Warshall(All pairs shortet path)  
+9. Bellman Ford(Single Source Shortest path)  
+10. Floyd Warshall(All pairs shortest path)  
+11. Prims MST  
 
